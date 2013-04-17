@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Michael Gubbels</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="./assets/css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href="./assets/css/bootstrap-responsive.css" rel="stylesheet">
+    
+    <link href="./assets/css/style.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+    
+    <!--
+    <script type="text/javascript" src="https://www.google.com/jsapi?key=ABQIAAAAEOOWav0KSyX9SZ23kpsdPRTs-F3xFRS5jilMVFuI7jogkuUpHRRKjz7aE5SqqUoPbC1fSQ5dn9lQZQ"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+	-->
+	
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script type="text/javascript">
+		google.load("jquery", "1.7.1");
+	</script>
+    
+    <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400|Muli|Terminal+Dosis|Comfortaa' rel='stylesheet' type='text/css'>
+    
+    <script type="text/javascript">
+    $(document).ready(function() {
+    	$('#menu_about').hover(
+    		function() { 
+    			$('#menu_cursor').css('top', 70); 
+    		},
+    		function() {});
+    	$('#menu_cv').hover(
+    		function() { 
+    			$('#menu_cursor').css('top', 104); 
+    		},
+    		function() {});
+    	$('#menu_portfolio').hover(
+    		function() { 
+    			$('#menu_cursor').css('top', 137); 
+    		},
+    		function() {});
+    	$('#menu_hacks').hover(
+    		function() { 
+    			$('#menu_cursor').css('top', 118); 
+    		},
+    		function() {});
+    });
+    </script>
+    
+    <script type="text/javascript">
+	
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-26414404-1']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	
+	</script>
+  </head>
+
+  <body>
+
+    <div class="container">
+    
+    	<div class="row">
+    		<div class="span2">
+    			&nbsp;
+    		</div>
+    	
+    		<div class="span1">
+    			<img src="./assets/img/brace_top.png" />
+    		</div>
+    		
+    		<div class="span9">
+    			&nbsp;
+    		</div>
+    	</div>
+    	
+    	<div class="row">
+    		<div class="span2"  style="text-align: right; margin-top: 80px;">
+				<p style="font-family: 'Quicksand', sans-serif; font-size: 29px; line-height: 1.2;">
+    				<a id="menu_about" href="./index.html">ABOUT</a><br />
+    				<a id="menu_cv" href="./cv.html">CV</a><br />
+    				<a id="menu_portfolio" href="./portfolio.html">PROJECTS</a><br />
+				</p>
+			</div>
+			
+    		<div class="span10" style="background-image:url('./assets/img/brace_side.png'); background-repeat: repeat-y;">
+    		
+    			<div style="position: relative; margin-top: -10px; margin-bottom: -10px;">
+					<div style="padding-left: 100px;">
+
+						<p>
+							Here's my <a href="http://www.linkedin.com/in/mrgubbels">LinkedIn</a> profile.
+						</p>
+
+						<h1>Education</h1>
+						<hr />
+						<div class="row">
+							<div class="span9">
+								<p>
+									<strong>University of Maryland, College Park</strong> (2011 – Present)
+									<br />
+									M.S., Human-Computer Interaction<br />
+									Cumulative GPA: 4.0 of 4.0
+								</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="span9">
+								<p>
+									<strong>University of Nebraska–Lincoln</strong> (Fall 2006 – Spring 2011)
+									<br />
+									B.S., Computer Science<br />
+									Cumulative GPA: 3.6 of 4.0
+								</p>
+							</div>
+						</div>
+						
+						<br />
+						<h1>Research Experience</h1>
+						<hr />
+
+
+
+
+						<div class="row">
+							<div class="span9">
+								<p>
+									<strong>Graduate Research Assistant, University of Maryland, College Park</strong> (Spring 2013 – Present)
+									<br />
+									Supervisor: Tamara Clegg, Ph.D., College of Education
+									<ul>
+										<li>ScienceKit is an on-going exploration of how to design a technology for children to scaffold their science learning through the framework of real-time collaborative storytelling.  This research is, in part, an outgrowth of previous work on <a href="http://www.cs.umd.edu/hcil/sinq/">SINQ</a>.</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+						<br />
+
+
+
+
+						<div class="row">
+							<div class="span9">
+								<p>
+									<strong>Graduate Research Assistant, University of Maryland, College Park</strong> (Spring 2013 – Present)
+									<br />
+									Supervisor: <a href="http://www.erikmitchell.info">Erik Mitchell, Ph.D.</a>, College of Information Studies
+									<ul>
+										<li>
+											Designing and developing an open-source cloud-based "virtual research environment" (VRE) that reduces barriers to publishing, analyzing, and accessing data by providing infrastructure to help cultural heritage institutions and communities access, analyze, and use data, broadening the potential impact of data.
+										</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+						<br />
+
+
+
+
+						<div class="row">
+							<div class="span9">
+								<p>
+									<strong>Graduate Research Assistant, University of Maryland, College Park</strong> (Spring 2012 – Fall 2012)
+									<br />
+									Supervisor: <a href="http://www.ahnjune.com">June Ahn, Ph.D.</a>, College of Information Studies and College of Education
+									<ul>
+										<li>Designed and built web application to study how interactions in social media can provide instructional scaffolding for learning scientific inquiry skills in informal environments outside of schools.</li>
+										<li>Submitted a work-in-progress paper and poster to ACM SIGCHI Conference on Human Factors in Computing Systems 2012.</li>
+										<li>Will present a poster for this research at ACM SIGCHI Conference on Human Factors in Computing Systems 2012.</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+						<br />
+
+
+
+
+						<div class="row">
+							<div class="span9">
+								<p>
+									<strong>Undergraduate Research Assistant, University of Nebraska–Lincoln</strong> (Spring 2008 – Spring 2011)
+									<br />
+									Supervisor: <a href="http://www.cse.unl.edu/~sscott/Welcome.shtml">Stephen Scott, Sc.D.</a>, Department of Computer Science and Engineering
+									<ul>
+										<li>Extended budgeted machine learning algorithms for learning Bayesian network classifiers.</li>
+										<li>Developed original algorithms for exploiting structural properties of Bayesian networks to improve learning efficiency.</li>
+										<li>Compared empirical classification error of models learned by extended and original algorithms and existing algorithms.</li>
+										<li>Funded by Ronald E. McNair Post Baccalaureate Achievement Program (Summer 2009), Undergraduate Creative Activities and Research Experiences Program (August 2009 – May 2010), and National Science Foundation (August 2009 – Present).</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+						<br />
+
+
+
+
+						<div class="row">
+							<div class="span9">
+								<p>
+									<strong>Undergraduate Research Assistant, University of Nebraska–Lincoln</strong> (Summer 2008 – Spring 2009)<br />
+									Supervisors: David Brooks, Ph.D., Teaching, Learning, and Teaching Education, <a href="http://cse.unl.edu/~lksoh/">Leen-Kiat Soh, Ph.D.</a>, Computer Science and Engineering
+									<ul>
+										<li>Implemented interactive graphical interface and games for touch-screen kiosks at Lincoln Children's Zoo for use by children from ages 3 to 5.</li>
+										<li>Collaborated with advisers from Department of Teaching, Learning, and Teacher Education, Department of Computer Science and Engineering, and technical staff at Lincoln Children's to establish project goals and design games for young audience.</li>
+										<li>Funded by Undergraduate Creative Activities and Research Experiences Program.</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+						<br />
+
+
+
+
+						<div class="row">
+							<div class="span9">
+								<p>
+									<strong>Undergraduate Research Assistant, University of Nebraska–Lincoln</strong> (Summer 2007)
+									<br />
+									Supervisor: Cynthia Wei, Ph.D, Center of Avian Cognition, School of Biological Sciences
+									<ul>
+										<li>Developed interactive graphical tests for a research team investigating the cognitive abilities of the corvid family of birds.</li>
+										<li>Developed graphical testing environments and control software for custom bird feeder hardware used to reward birds after responding to test prompts.</li>
+										<li>Implemented tests that detect bird pecks on a touch/peck-sensitive display and conditionally dispense birdseed from a custom software-controlled mechanical bird feeder.</li>
+										<li>Developed software for MS-DOS operating system in ANSI C programming language with legacy graphics, touch/peck detection, and bird feeder hardware libraries.</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+						<br />
+
+
+
+
+						<h1>Professional Experience</h1>
+						<hr />
+						<div class="row">
+							<div class="span9">
+								<p>
+									<strong>User Experience Research Intern</strong>, Knowledge Team (Summer 2012)
+									<br />
+									<a href="http://www.google.com/">Google</a>, Mountain View, CA (hosted by <a href="https://sites.google.com/site/dmrussell/">Daniel Russell</a>)
+									<ul>
+										<li>Helped design of Google's first massively open online course, Power Searching with Google.</li>
+										<li>Helped teach and facilitate a series of co-located classes to individuals in the Bay Area and on Google+ using SearchParty an open-source prototype peer learning and social learning technology that I helped develop at the Human-Computer Interaction Lab at the University of Maryland.</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+						<br />
+
+
+
+
+						<div class="row">
+							<div class="span9">
+								<p>
+									<strong>Computer Engineer Intern</strong> (Summer 2010)
+									<br />
+									<a href="http://css-design.com/">Communications Systems Solutions</a>, Lincoln, NE
+									<ul>
+										<li>Worked as one of two primary engineers developing firmware for a custom embedded Power of Ethernet (PoE) device and desktop application to communicate with and command the device.</li>
+										<li>Primary engineer on a small team developing firmware for a custom Power over Ethernet (PoE) device with an embedded TI Stellaris® ARM® Cortex™-M3 6000 Series 32-bit microprocessor using the C programming language and TI StellarisWare software libraries.</li>
+										<li>Implemented SNTPv3 protocol according to standard standard for embedded device.</li>
+										<li>Developed custom application-level communication protocol to enable remote command and communication for custom embedded device.</li>
+										<li>Primary engineer developing desktop application for discovery and configuration of multiple PoE devices on network using C++ programming language and Qt4 for the Windows and Mac operating systems.</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+						<br />
+
+
+
+
+						<div class="row">
+							<div class="span9">
+								<p>
+									<strong>Computer Engineer Intern</strong> (Summer 2008)
+									<br />
+									<a href="http://css-design.com/">Communications Systems Solutions</a>, Lincoln, NE
+									<ul>
+										<li>Developed software architecture and graphical interface for converting CAD files in Gerber RS-274X format to AutoCAD DXF format for circuit board prototyping application.</li>
+										<li>Developed software using C++/STL and Qt4 graphics API for Windows and Linux.</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+						<br />
+
+
+
+
+						<div class="row">
+							<div class="span9">
+								<p>
+									<strong>Software Developer Intern</strong> (Summer 2008)
+									<br />
+									<a href="http://www.filebound.com/">Marex Group</a>, Lincoln, NE
+									<ul>
+										<li>Developed unit testing framework for proprietary software using Visual Basic .NET.</li>
+										<li>Developed a SOAP web interface for interfacing with a private object mode.</li>
+										<li>Wrote technical documentation for web service and unit testing framework.</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+
+
+
+
+						<br />
+						<h1>Teaching Experience</h1>
+						<hr />
+						<div class="row">
+							<div class="span9">
+								<p>
+									<strong>Graduate Teaching Assistant, University of Maryland, College Park</strong> (Fall 2011)<br />
+									Supervisor: Ben Bederson, Ph.D, Department of Computer Science and Engineering
+								</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="span9">
+								<p>
+									<strong>Undergraduate Research Assistant, University of Nebraska–Lincoln</strong> (Spring 2009, Fall 2009)<br />
+									Supervisor: Usha Chandra, Ph.D, Department of Computer Science and Engineering
+								</p>
+							</div>
+						</div>
+						
+						<br />
+						<h1>Publications</h1>
+						<hr />
+						<p>Clegg, T., Yip, J., Ahn, J., Bonsignore, E., <strong>Gubbels, M.</strong>, Lewittes, B., Rhodes, E. (2013). When face-to-face fails: Opportunities for social media to foster collaborative learning. Tenth International Conference on Computer Supported Collaborative Learning, Madison, WI.</p>
+
+						<p><strong>Gubbles, M.</strong>, Yip, J. C., Kim, J., Ahn, J. (2013). Scientific INQuiry (SINQ): Social media for everyday science learning. iConference 2013 Proceedings (pp. 1102-1105).</p>
+
+						<p>Ahn, J., <strong>Gubbels, M.</strong>, Kim, J., Wu, J. (2011). SINQ: Scientific INQuiry Learning using Social Media and the Crowd. Accepted to ACM SIGCHI Conference on Human Factors in Computing Systems 2012. Austin, TX. (48% Acceptance rate)</p>
+
+						<p><strong>Gubbels, M.</strong> (2009). Budgeted Machine Learning of Bayesian Networks. In Proceedings of the 17th Annual Ronald E. McNair Scholars Symposium. UC-Berkeley, Berkeley, CA.</p>
+						
+						<br />
+						<h1>Presentations</h1>
+						<hr />
+						<p>Ahn, J., <strong>Gubbels, M.</strong>, Kim, J., Wu, J. (2011). SINQ: Scientific INQuiry Learning using Social Media and the Crowd. Presented poster at ACM SIGCHI Conference on Human Factors in Computing Systems 2012. Austin, TX. (48% acceptance rate)</p>
+
+						<p><strong>Gubbels, M.</strong> (2009, August). Budgeted Machine Learning of Bayesian Networks. Presented at the 17th Annual Ronald E. McNair Scholars Symposium, UC–Berkeley, Berkeley, CA.</p>
+
+						<p><strong>Gubbels, M.</strong> (2009, July). Budgeted Machine Learning of Bayesian Networks. Presented poster at the Ronald E. McNair Scholars Summer Research Colloquium, University of Nebraska–Lincoln, Lincoln, NE.</p>
+
+						<p><strong>Gubbels, M.</strong> (2009, April). Developing a Software Framework for Adaptive Interactive Kiosks: On the Design and Implementation of Educational Games for a Young Audience in an Unpredictable Environment. PResented poster at the Undergraduate Research Conference, University of Nebraska–Lincoln, Lincoln, NE.</p>
+						
+						<br />
+						<h1>Exhibitions</h1>
+						<hr />
+						<p><strong>Gubbels, M.</strong> (2011). Digital Photographs. mailto:, Drift Station Gallery. Lincoln, NE.</p>
+						<p><strong>Gubbels, M.</strong> (2011). Interpretations B Motion 1. Digital Video. BA/BFA Interrogating the Future Interdisciplinary Art Practice, Arcade Gallery. Columbia College Chicago, Chicago, IL.</p>
+						<p><strong>Gubbels, M.</strong> (2011). Interpretations B Motion 1. Digital Video. Indoor/Outdoor Film Screening, Drift Station Gallery. Lincoln, NE.</p>
+						
+						<br />
+						<h1>Honors and Awards</h1>
+						<hr />
+						<p>
+							<strong>2013.</strong> Finalist in Social Media Expo Competition at iConference 2013<br />
+							<strong>2013.</strong> Semi-Finalist in Future of Information Alliance-Deutsch Seed Grant Competition, University of Maryland, College Park<br />
+							<strong>2011.</strong> Awarded Fellowship from Department Computer Science at University of Maryland, College Park<br />
+							<strong>2011.</strong> Awarded Dean’ s Fellowship from University of Maryland, College Park<br />
+							<strong>2009 – 2010.</strong> Awarded W&L Brown Scholarship for Outstanding Achievement in Computer Science<br />
+							<strong>2009 – 2010.</strong> Awarded Undergraduate Research and Creative Activities research grant<br />
+							<strong>2008 – 2009.</strong> Inducted into the Upsilon Pi Epsilon at University of Nebraska – Lincoln<br />
+							<strong>2008.</strong> Inducted into the Ronald E. McNair Post Baccalaureate Achievement Program<br />
+							<strong>2007 – 2008.</strong> Awarded Larry Reynolds Computer Science & Achievement Scholarship<br />
+							<strong>2007 – 2008.</strong> Awarded Computer Science and Engineering Lantz Hess Engineering Scholarship<br />
+							<strong>2007.</strong> Awarded Undergraduate Research and Creative Activities research grant<br />
+							<strong>2006 – 2007.</strong> Awarded NSF CSEMS scholarship<br />
+							<strong>2006 – 2007.</strong> Awarded AITP Omaha Technology Scholarship
+						</p>
+
+
+
+						
+						<br />
+						<h1>Service and Leadership</h1>
+						<hr />
+						<p>
+						<strong>2011.</strong> Volunteer for Future of Information Alliance at University of Maryland, College Park<br />
+						<strong>2011.</strong> Volunteer Reviewer for CHI 2012 paper clinic in Human-Computer Interaction Lab at University of Maryland, College Park<br />
+						<strong>2011.</strong> Volunteer for heuristic evaluation of Office of Information Technology website in Human-Computer Interaction Lab at University of Maryland, College Park<br />
+						<strong>2011.</strong> Awarded Dean’ s Fellowship at University of Maryland, College Park<br />
+						<strong>2009 – 2012.</strong> Student Ambassador for Undergraduate Creative and Research Experiences Program<br />
+						<strong>2008 – 2010.</strong> Vice President of Upsilon Pi Epsilon<br />
+						<strong>2008.</strong> Co-founded Upsilon Pi Epsilon chapter at University of Nebraska – Lincoln<br />
+						<strong>2007 – 2008.</strong> Volunteer on Computer Science and Engineering Student Advisory Panel on Computer Science and Engineering Day at University of Nebraska – Lincoln<br />
+						<strong>2007.</strong> Volunteer for high-school programming competition on Computer Science and Engineering Day at University of Nebraska – Lincoln
+						</p>
+						
+						<br />
+						<h1>Professional Activities</h1>
+						<hr />
+						<p>						
+						<strong>2012.</strong> Member of Interaction Design Association Washington D.C. (IxDC)<br />
+						<strong>2012.</strong> Member of the HacDC Hackerspace in Washington D.C.<br />
+						<strong>2011.</strong> Graduate Student in the Human-Computer Interaction Lab at the University of Maryland, College Park<br />
+						<strong>2010 – 2011.</strong> American Radio Relay League (ARRL) Member (call sign KDØMMR)<br />
+						<strong>2009 – 2012.</strong> Association for Computing Machinery (ACM) Student Member<br />
+						</p>
+
+						<br />
+						<h1>Tools & Skills</h1>
+						<hr />
+						<p>
+						<strong>Programming Languages:</strong> C, C++, Java, Python, JavaScript<br />
+						<strong>Web Development:</strong> Node.js, HTML5, CSS3, Google App Engine, Django, MongoDB<br />
+						<strong>Design:</strong> Apple Final Cut Pro, Adobe Photoshop, Illustrator, Premiere, Arduino, Processing, wireframing; low and high fidelity prototyping methods, Section 508 Accessibility Guidelines, information architecture, system architecture, rapid iterative prototyping<br />
+						<strong>Embedded Platforms:</strong> Arduino<br />
+						<strong>Operating Systems:</strong> Apple Mac OS X, Linux, Microsoft Windows<br />
+						</p>
+						<p>
+							I have also used (Programming Languages) Lisp, (Web Development) (Web Development) PHP, PostreSQL, MySQL, SQLite, (Embedded Programming Languages) AVR ASM, AVR C, MIPS, (Machine Learning APIs) Netica C and Netica-J APIs, (Embedded Platforms) TinyOS, and Texas Instruments Stellaris, (Graphics) OpenGL and GLUT.
+						</p>
+						
+						<br />
+						<h1>References</h1>
+						<hr />
+						<p>I can provide several references upon request.</p>
+					</div>
+					
+					<!-- 63, 80 99 -->
+					<div id="menu_cursor" style="position: absolute; top: 104px; left: 0px;">
+						<img src="./assets/img/brace_center.png" />
+					</div>
+				</div>
+				
+			</div>
+    	</div>
+    
+    	<div class="row">
+			<div class="span2">
+				&nbsp;
+			</div>
+			
+			<div class="span1">
+				<img src="./assets/img/brace_bottom.png" />
+			</div>
+			
+			<div class="span9">
+				&nbsp;
+			</div>
+    	</div>
+      
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap-transition.js"></script>
+    <script src="./js/bootstrap-alert.js"></script>
+    <script src="./js/bootstrap-modal.js"></script>
+    <script src="./js/bootstrap-dropdown.js"></script>
+    <script src="./js/bootstrap-scrollspy.js"></script>
+    <script src="./js/bootstrap-tab.js"></script>
+    <script src="./js/bootstrap-tooltip.js"></script>
+    <script src="./js/bootstrap-popover.js"></script>
+    <script src="./js/bootstrap-button.js"></script>
+    <script src="./js/bootstrap-collapse.js"></script>
+    <script src="./js/bootstrap-carousel.js"></script>
+    <script src="./js/bootstrap-typeahead.js"></script>
+    -->
+
+  </body>
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Michael Gubbels</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="./assets/css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href="./assets/css/bootstrap-responsive.css" rel="stylesheet">
+    
+    <link href="./assets/css/style.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="./assets/ico/favicon.gif">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="./assets/ico/apple-touch-icon-57-precomposed.png">
+    
+    <!--
+    <script type="text/javascript" src="https://www.google.com/jsapi?key=ABQIAAAAEOOWav0KSyX9SZ23kpsdPRTs-F3xFRS5jilMVFuI7jogkuUpHRRKjz7aE5SqqUoPbC1fSQ5dn9lQZQ"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+	-->
+	
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script type="text/javascript">
+		google.load("jquery", "1.7.1");
+	</script>
+    
+    <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400|Muli|Terminal+Dosis|Comfortaa' rel='stylesheet' type='text/css'>
+    
+    <script type="text/javascript">
+    $(document).ready(function() {
+    	$('#menu_about').hover(
+    		function() { 
+    			$('#menu_cursor').css('top', 70); 
+    		},
+    		function() {});
+    	$('#menu_cv').hover(
+    		function() { 
+    			$('#menu_cursor').css('top', 104); 
+    		},
+    		function() {});
+    	$('#menu_portfolio').hover(
+    		function() { 
+    			$('#menu_cursor').css('top', 137); 
+    		},
+    		function() {});
+    	$('#menu_hacks').hover(
+    		function() { 
+    			$('#menu_cursor').css('top', 118); 
+    		},
+    		function() {});
+    });
+    </script>
+    
+    <script type="text/javascript">
+	
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-26414404-1']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	
+	</script>
+  </head>
+
+  <body>
+
+    <div class="container">
+    
+    	<div class="row">
+    		<div class="span2">
+    			&nbsp;
+    		</div>
+    	
+    		<div class="span1">
+    			<img src="./assets/img/brace_top.png" />
+    		</div>
+    		
+    		<div class="span9">
+    			&nbsp;
+    		</div>
+    	</div>
+    	
+    	<div class="row">
+    		<div class="span2"  style="text-align: right; margin-top: 80px;">
+				<p style="font-family: 'Quicksand', sans-serif; font-size: 29px; line-height: 1.2;">
+    				<a id="menu_about" href="./index.html">ABOUT</a><br />
+    				<a id="menu_cv" href="./cv.html">CV</a><br />
+    				<a id="menu_portfolio" href="./portfolio.html">PROJECTS</a><br />
+				</p>
+			</div>
+			
+    		<div class="span10" style="background-image:url('./assets/img/brace_side.png'); background-repeat: repeat-y;">
+    		
+    			<div style="position: relative; margin-top: -10px; margin-bottom: -10px;">
+					<div style="padding-left: 100px;">
+						
+						<p>
+							I'm a M.S. student in <a href="http://ischool.umd.edu/content/master-human-computer-interaction">Human-Computer Interaction</a> in the <a href="http://ischool.umd.edu/">College of Information Studies</a> at the <a href="http://umd.edu/">University of Maryland, College Park</a>.  I am working on a handful of projects.  These are Social Fabric Fitness with <a href="http://www.cs.umd.edu/~jonf/">Jon Froehlich</a>, ScienceKit with Tammy Clegg (an evolution of my previous work on SINQ with <a href="http://ahnjune.com/">June Ahn</a>), and a cloud-based virtual computer lab with <a href="http://www.erikmitchell.info">Erik Mitchell</a>.
+						</p>
+
+                        <p>
+                            There's a tune to the things I do.  To me, our magic, the magic of people, emerges from our ability to create tools, play with them, and break them, to communicate and organize using them to achieve creativity, productivity, play, learning, etc.  I want to find out what many hands, thousands, hundreds of thousands, and their driving minds can do to a material when they can simultaneously change it, in real time (together, across time and space).  Interactivity <em>a la</em> "social sculpture".  My particular tendency is toward their interaction design.  They can be built.  How can they be made exceptionally well?  I build tools to manipulate time and space collaboratively.  Some recent examples are ScienceKit and SINQ (check my Projects page).
+                        </p>
+
+						<p>
+							I use my additional volts of <span id="energy">energy</span> to help kindle the <a href="https://wiki.umiacs.umd.edu/hcil/hackerspace/">HCIL Hackerspace</a> set up recently in the <a href="http://www.cs.umd.edu/hcil/">Human-Computer Interaction Lab</a> and explore thoughts with others in the lab.  I recently established a mailing list for the HCIL for playful, creative lab buzz.
+						</p>
+						
+						<p>
+							Last summer, I was a User Experience Research Intern at Google mentored by <a href="https://sites.google.com/site/dmrussell/">Daniel Russell</a>.  I helped design and launch Google's first <a href="http://www.powersearchingwithgoogle.com/">Power Searching with Google</a> MOOC that reached over a hundred thousand students across the globe.  I also helped run a series of pilot deployments of SearchParty with Daniel Russell, <a href="http://www.cs.umd.edu/~bederson/">Ben Bederson</a>, and <a href="http://www.cs.umd.edu/hcil/members/arose/">Anne Rose</a>.
+						</p>
+
+						<p>
+							I put my tools on <a href="https://github.com/mokogobo">GitHub</a> and talk on <a href="https://plus.google.com/115163694586390874226/posts">Google+</a>.
+						</p>
+						
+						<!-- <p>
+						Some things that I enjoy in my free time are exploring my current home  
+						around Washington D.C., 
+						developing my technical and artistic repitoire, progressing on art and 
+						other projects, electronics hacking, learning (and 
+						consuming) all things coffee, and riding my blue bicycle.
+						</p> -->
+					</div>
+					
+					<!-- 63, 80 99 -->
+					<div id="menu_cursor" style="position: absolute; top: 70px; left: 0px;">
+						<img src="./assets/img/brace_center.png" />
+					</div>
+				</div>
+				
+			</div>
+    	</div>
+    
+    	<div class="row">
+			<div class="span2">
+				&nbsp;
+			</div>
+			
+			<div class="span1">
+				<img src="./assets/img/brace_bottom.png" />
+			</div>
+			
+			<div class="span9">
+				&nbsp;
+			</div>
+    	</div>
+      
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap-transition.js"></script>
+    <script src="./js/bootstrap-alert.js"></script>
+    <script src="./js/bootstrap-modal.js"></script>
+    <script src="./js/bootstrap-dropdown.js"></script>
+    <script src="./js/bootstrap-scrollspy.js"></script>
+    <script src="./js/bootstrap-tab.js"></script>
+    <script src="./js/bootstrap-tooltip.js"></script>
+    <script src="./js/bootstrap-popover.js"></script>
+    <script src="./js/bootstrap-button.js"></script>
+    <script src="./js/bootstrap-collapse.js"></script>
+    <script src="./js/bootstrap-carousel.js"></script>
+    <script src="./js/bootstrap-typeahead.js"></script>
+    -->
+
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+    <script type="text/javascript" src="./assets/js/jquery.jrumble.min.js"></script>
+
+    <script>
+    	$('#energy').jrumble({ opacity: true });
+    	$('#energy').trigger('startRumble');
+    </script>
+
+  </body>
+</html>
