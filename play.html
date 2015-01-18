@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Michael Gubbels</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="./assets/css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href="./assets/css/bootstrap-responsive.css" rel="stylesheet">
+    
+    <link href="./assets/css/style.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="./assets/ico/favicon.gif">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="./assets/ico/apple-touch-icon-57-precomposed.png">
+    
+    <!--
+    <script type="text/javascript" src="https://www.google.com/jsapi?key=ABQIAAAAEOOWav0KSyX9SZ23kpsdPRTs-F3xFRS5jilMVFuI7jogkuUpHRRKjz7aE5SqqUoPbC1fSQ5dn9lQZQ"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+	-->
+	
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script type="text/javascript">
+		google.load("jquery", "1.7.1");
+	</script>
+    
+    <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400|Muli|Terminal+Dosis|Comfortaa' rel='stylesheet' type='text/css'>
+    
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('#menu_about').hover(
+            function() { 
+                $('#menu_cursor').css('top', 70); 
+            },
+            function() {});
+        $('#menu_cv').hover(
+            function() { 
+                $('#menu_cursor').css('top', 104); 
+            },
+            function() {});
+        $('#menu_portfolio').hover(
+            function() { 
+                $('#menu_cursor').css('top', 137); 
+            },
+            function() {});
+        $('#menu_play').hover(
+            function() { 
+                $('#menu_cursor').css('top', 172); 
+            },
+            function() {});
+    });
+    </script>
+    
+    <script type="text/javascript">
+	
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-26414404-1']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	
+	</script>
+  </head>
+
+  <body>
+
+    <div class="container">
+    
+    	<div class="row">
+    		<div class="span2">
+    			&nbsp;
+    		</div>
+    	
+    		<div class="span1">
+    			<img src="./assets/img/brace_top.png" />
+    		</div>
+    		
+    		<div class="span9">
+    			&nbsp;
+    		</div>
+    	</div>
+    	
+    	<div class="row">
+    		<div class="span2"  style="text-align: right; margin-top: 80px;">
+				<p style="font-family: 'Quicksand', sans-serif; font-size: 29px; line-height: 1.2;">
+                    <a id="menu_about" href="./index.html">ABOUT</a><br />
+                    <a id="menu_cv" href="./cv.html">CV</a><br />
+                    <a id="menu_portfolio" href="./portfolio.html">PROJECTS</a><br />
+                    <a id="menu_play" href="./play.html">PLAY</a><br />
+				</p>
+			</div>
+			
+    		<div class="span10" style="background-image:url('./assets/img/brace_side.png'); background-repeat: repeat-y;">
+    		
+    			<div style="position: relative; margin-top: -10px; margin-bottom: -10px;">
+					<div style="padding-left: 100px;">
+						
+						<p>
+                            poems while thinking about technology and society
+						</p>
+
+                        <p>
+                            coffee pot mug
+                        </p>
+
+					</div>
+					
+					<!-- 63, 80 99 -->
+					<div id="menu_cursor" style="position: absolute; top: 172px; left: 0px;">
+						<img src="./assets/img/brace_center.png" />
+					</div>
+				</div>
+				
+			</div>
+    	</div>
+    
+    	<div class="row">
+			<div class="span2">
+				&nbsp;
+			</div>
+			
+			<div class="span1">
+				<img src="./assets/img/brace_bottom.png" />
+			</div>
+			
+			<div class="span9">
+				&nbsp;
+			</div>
+    	</div>
+      
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap-transition.js"></script>
+    <script src="./js/bootstrap-alert.js"></script>
+    <script src="./js/bootstrap-modal.js"></script>
+    <script src="./js/bootstrap-dropdown.js"></script>
+    <script src="./js/bootstrap-scrollspy.js"></script>
+    <script src="./js/bootstrap-tab.js"></script>
+    <script src="./js/bootstrap-tooltip.js"></script>
+    <script src="./js/bootstrap-popover.js"></script>
+    <script src="./js/bootstrap-button.js"></script>
+    <script src="./js/bootstrap-collapse.js"></script>
+    <script src="./js/bootstrap-carousel.js"></script>
+    <script src="./js/bootstrap-typeahead.js"></script>
+    -->
+
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+    <script type="text/javascript" src="./assets/js/jquery.jrumble.min.js"></script>
+
+    <script>
+    	$('#energy').jrumble({ opacity: true });
+    	$('#energy').trigger('startRumble');
+    </script>
+
+  </body>
+</html>
